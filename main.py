@@ -9,7 +9,7 @@ import os
 
 # ========== CONFIGURAÇÕES ==========
 NOME_APP = "SistemaDocumentosAdvocacia"
-PASTA_BASE = Path(os.getenv("LOCALAPPDATA")) / NOME_APP / "temas"
+PASTA_BASE = Path(os.getenv("OneDrive")) / NOME_APP / "temas"
 PASTA_BASE.mkdir(parents=True, exist_ok=True)
 
 EXTENSOES_PERMITIDAS = [".pdf", ".docx"]
